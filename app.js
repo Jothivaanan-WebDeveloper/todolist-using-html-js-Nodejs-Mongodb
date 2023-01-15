@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 //Mongoose Connection
-mongoose.connect("mongodb://localhost:27017/todolistDB",{useNewUrlParser: true}, (err) => {
+mongoose.connect("mongodb+srv://admin-joe:Jothi%40123@cluster0.htv13wx.mongodb.net/todolistDB",{useNewUrlParser: true}, (err) => {
   if (err) {
       console.log(err);
   }
